@@ -85,7 +85,7 @@ Na pasta do projeto:
 mvn jetty:run
 ```
 
-Acesse **http://localhost:8080**.
+Acesse **http://localhost:8081**.
 
 Para gerar o `.war` e publicar no Tomcat 10: `mvn package` (o arquivo sai em `target/arena-games.war`). Nesse caso informe o caminho do `.env` com `-Denv.file=C:\caminho\do\projeto\.env` nas opções da JVM do Tomcat ou defina as variáveis `DB_*` no sistema.
 
