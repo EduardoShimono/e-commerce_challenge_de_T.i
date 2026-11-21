@@ -1,0 +1,25 @@
+# Credenciais reais
+.env
+
+# Build do Maven
+target/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+nbproject/
+nbactions.xml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e temporarios
+*.log
+*.tmp
+*.swp
