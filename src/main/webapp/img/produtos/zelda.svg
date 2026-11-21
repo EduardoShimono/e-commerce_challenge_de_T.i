@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5c4a1a"/><stop offset="1" stop-color="#c9a227"/></linearGradient></defs>
+<rect width="600" height="450" fill="url(#g)"/>
+<rect x="235" y="105" width="130" height="190" rx="8" fill="#fff" opacity=".92"/><rect x="235" y="105" width="130" height="28" rx="8" fill="#0003"/><circle cx="300" cy="215" r="38" fill="none" stroke="#0004" stroke-width="10"/>
+<text x="300" y="380" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#fff">Zelda: Tears of the Kingdom</text>
+</svg>

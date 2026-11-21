@@ -1,0 +1,14 @@
+<div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-2">
+    <h1 class="h3 mb-0"><i class="bi bi-speedometer2"></i> Painel administrativo</h1>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link ${menuAdmin == 'produtos' ? 'active' : ''}" href="${ctx}/admin/produtos">Produtos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link ${menuAdmin == 'pedidos' ? 'active' : ''}" href="${ctx}/admin/pedidos">Pedidos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="${ctx}/">Ver loja</a>
+        </li>
+    </ul>
+</div>

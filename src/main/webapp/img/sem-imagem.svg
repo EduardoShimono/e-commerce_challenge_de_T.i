@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c757d"/><stop offset="1" stop-color="#adb5bd"/></linearGradient></defs>
+<rect width="600" height="450" fill="url(#g)"/>
+<rect x="230" y="130" width="140" height="140" rx="12" fill="none" stroke="#fff" stroke-width="8" opacity=".8"/><circle cx="270" cy="175" r="14" fill="#fff" opacity=".8"/><path d="M240 255 l40 -45 l30 30 l20 -20 l30 35z" fill="#fff" opacity=".8"/>
+<text x="300" y="380" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#fff">Sem imagem</text>
+</svg>

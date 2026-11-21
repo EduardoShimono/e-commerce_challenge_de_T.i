@@ -1,0 +1,151 @@
+:root {
+    --arena-escuro: #161a2b;
+    --arena-roxo: #5b3cc4;
+    --arena-roxo-escuro: #48309d;
+    --arena-verde: #19c37d;
+    --arena-fundo: #f4f5f9;
+}
+
+body {
+    background-color: var(--arena-fundo);
+}
+
+.bg-arena {
+    background-color: var(--arena-escuro);
+}
+
+.text-arena {
+    color: var(--arena-verde);
+}
+
+.bg-arena-accent {
+    background-color: var(--arena-verde);
+}
+
+.btn-arena {
+    background-color: var(--arena-roxo);
+    border-color: var(--arena-roxo);
+    color: #fff;
+}
+
+.btn-arena:hover,
+.btn-arena:focus {
+    background-color: var(--arena-roxo-escuro);
+    border-color: var(--arena-roxo-escuro);
+    color: #fff;
+}
+
+.busca-topo {
+    width: 100%;
+    max-width: 420px;
+}
+
+.nav-pills .nav-link.active,
+.list-group-item.active {
+    background-color: var(--arena-roxo);
+    border-color: var(--arena-roxo);
+}
+
+/* Vitrine */
+.destaque {
+    background: linear-gradient(120deg, var(--arena-escuro) 0%, var(--arena-roxo) 100%);
+    color: #fff;
+    border-radius: .75rem;
+    padding: 2.25rem 2rem;
+}
+
+.produto-card {
+    border: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.produto-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .12);
+}
+
+.produto-img img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    background: #e9ebf2;
+}
+
+.preco {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--arena-escuro);
+}
+
+.preco-grande {
+    font-size: 2rem;
+    color: var(--arena-roxo);
+}
+
+.produto-detalhe-img {
+    border: 0;
+    overflow: hidden;
+}
+
+.filtros {
+    border: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+/* Carrinho */
+.miniatura {
+    width: 56px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: .25rem;
+    background: #e9ebf2;
+}
+
+.form-quantidade input {
+    max-width: 80px;
+}
+
+.resumo {
+    position: sticky;
+    top: 80px;
+}
+
+/* Checkout */
+.opcoes-pagamento {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: .75rem;
+}
+
+.opcao-pagamento {
+    display: flex;
+    gap: .6rem;
+    align-items: flex-start;
+    border: 1px solid #dee2e6;
+    border-radius: .5rem;
+    padding: .75rem;
+    cursor: pointer;
+}
+
+.opcao-pagamento:has(input:checked) {
+    border-color: var(--arena-roxo);
+    background-color: #f1edff;
+}
+
+.qr-falso {
+    width: 84px;
+    height: 84px;
+    flex-shrink: 0;
+    background:
+        repeating-linear-gradient(90deg, #000 0 6px, #fff 6px 12px),
+        repeating-linear-gradient(0deg, #000 0 6px, #fff 6px 12px);
+    background-blend-mode: difference;
+    border: 6px solid #fff;
+    outline: 1px solid #ccc;
+}
+
+/* Rodape */
+.rodape {
+    background-color: var(--arena-escuro);
+    color: #d6d8e1;
+}

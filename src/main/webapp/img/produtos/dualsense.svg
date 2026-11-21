@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b2d42"/><stop offset="1" stop-color="#8d99ae"/></linearGradient></defs>
+<rect width="600" height="450" fill="url(#g)"/>
+<path d="M200 170 q100 -40 200 0 q40 20 30 110 q-8 50 -48 30 l-40 -40 h-84 l-40 40 q-40 20 -48 -30 q-10 -90 30 -110z" fill="#fff" opacity=".92"/><circle cx="380" cy="200" r="10" fill="#0004"/><circle cx="355" cy="225" r="10" fill="#0004"/><rect x="225" y="205" width="40" height="12" rx="4" fill="#0004"/><rect x="239" y="191" width="12" height="40" rx="4" fill="#0004"/>
+<text x="300" y="380" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#fff">Controle DualSense</text>
+</svg>
